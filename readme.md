@@ -6,7 +6,7 @@ npm i florida_man
 
 ```js
 
-const {fman} = require("./index.js");
+const {fman} = require("florida_man");
 
 
 async function f_man(month,date){
