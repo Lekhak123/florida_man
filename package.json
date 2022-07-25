@@ -1,0 +1,27 @@
+{
+  "name": "florida_man",
+  "version": "1.0.69",
+  "description": "npm package to find out what the florida man did today",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js"
+  },
+  "keywords": [
+    "florida man",
+    "api",
+    "news",
+    "what did florida man do today"
+  ],
+  "author": "ruriko123",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "got": "^11.8.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
