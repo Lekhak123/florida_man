@@ -1,12 +1,13 @@
 {
   "name": "florida_man",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "npm package to find out what the florida man did today",
   "main": "index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@ruriko123"
   },
   "scripts": {
+    "start": "node -r esm index.js",
     "test": "node -r esm index.js"
   },
   "keywords": [
