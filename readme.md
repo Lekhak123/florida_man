@@ -1,3 +1,7 @@
+```
+npm i florida_man
+```
+
 
 # Example
 
