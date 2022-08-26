@@ -2,8 +2,10 @@ import got from 'got';
 
 
 async function fman(month:string,date:string){
-    
-      let response=  await got(`https://floridamanbirthday.org/${month}-${date}`)
+
+   
+      date[0]==="0"?date=`${date[1]}`:date=date;
+      let response=  await got(`https://floridamanbirthday.org/${month}-${date}`);
 
     var content:string = response.body;
     var image = content.match(/floridamanbirthday.org\/wp-content\/uploads\/\d+\/\d+\/\w+-\w+-\w+-\w+-\d+-\d+x\d+.jpg/m);

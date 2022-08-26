@@ -1,6 +1,6 @@
 {
   "name": "florida_man",
-  "version": "1.0.69",
+  "version": "1.0.9",
   "description": "npm package to find out what the florida man did today",
   "main": "index.js",
   "scripts": {
@@ -20,8 +20,6 @@
   "dependencies": {
     "esm": "^3.2.25",
     "got": "^11.8.2"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   }
+ 
 }
