@@ -10,7 +10,7 @@ npx tsc index.ts
 
 ```js
 
-const {fman} = require("florida_man");
+const {fman} = require("@ruriko123/florida_man");
 
 
 async function f_man(month,date){
