@@ -1,10 +1,7 @@
 ```
 npm i florida_man
 ```
-to compile to js:
-```
-npx tsc index.ts
-```
+
 
 # Example
 
